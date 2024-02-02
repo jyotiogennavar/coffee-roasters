@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import logoIcon from '../../../public/assets/shared/desktop/logo.svg'
+import logoIcon from '../../assets/shared/desktop/logo.svg';
 
 
 const Navbar = () => {
@@ -24,7 +24,7 @@ const NavbarWrapper = styled.div`
 `
 
 const Logo = styled.img`
-  
+
 `
 
 const NavItems = styled.ul`

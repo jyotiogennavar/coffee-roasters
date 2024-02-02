@@ -19,6 +19,11 @@ const MainLayout = ({children}) => {
 
 const MainWrapper = styled.div`
   background-color: ${COLORS.lightCream};
+  margin: 5%;
+
+  font-family: ${FONT_FAMILY.fontText};
+  font-size: ${FONT_SIZES[100]};
+  font-weight: ${WEIGHTS.normal};
 `
 
 export default MainLayout;
