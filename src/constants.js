@@ -4,11 +4,11 @@ export const FONT_FAMILY = {
 };
 
 export const COLORS = {
-  darkCyan: 'hsl(179°, 81%, 29%)',
-  darkGreyBlue: 'hsl(215°, 19%, 25%)',
-  paleOrange: 'hsl(25°, 94%, 86%)',
-  lightCream: 'hsl(43°, 78%, 98%)',
-  grey: 'hsl(215°, 5%, 54%)',
+  darkCyan: 'hsl(179, 81%, 29%)',
+  darkGreyBlue: 'hsl(215, 19%, 25%)',
+  paleOrange: 'hsl(25, 94%, 86%)',
+  lightCream: 'hsl(43, 78%, 98%)',
+  grey: 'hsl(215, 5%, 54%)',
 };
 
 export const WEIGHTS = {

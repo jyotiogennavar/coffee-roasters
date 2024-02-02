@@ -13,11 +13,11 @@ const Button = ({children, onClick, ...rest}) => {
 }
 
 const ButtonWrapper = styled.button`
-  width: 13.5rem;
-  height: 3.5rem;
+  width: 13rem;
+  height: 3rem;
   background-color: ${COLORS.darkCyan};
   border-radius: 0.375rem;
-  padding: 1rem 5rem;
+  padding: 1rem 3rem;
   cursor: pointer;
   border: none;
 

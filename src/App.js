@@ -4,10 +4,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
+import GlobalStyles from "./components/GlobalStyles";
+
 import Home from "./pages/home";
 import AboutUs from "./pages/about-us";
 import CreatePlan from "./pages/create-a-plan";
-import Navbar from "./components/Navbar/Navbar";
+
 
 const router = createBrowserRouter([
   {
