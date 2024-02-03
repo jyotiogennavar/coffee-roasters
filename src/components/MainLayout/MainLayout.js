@@ -5,6 +5,7 @@ import GlobalStyles from '../GlobalStyles';
 import {COLORS, WEIGHTS, FONT_SIZES, FONT_FAMILY} from '../../constants';
 
 import Navbar from '../Navbar';
+import Footer from '../Footer/Footer';
 
 
 
@@ -13,7 +14,7 @@ const MainLayout = ({children}) => {
     <MainWrapper>
       <Navbar/>
       <div>{children}</div> 
-
+      <Footer/>
     </MainWrapper>
   )
 }
