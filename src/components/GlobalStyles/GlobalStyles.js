@@ -31,6 +31,7 @@ ol[role='list'] {
 body {
   min-height: 100vh;
   line-height: 1.5;
+  background-color: hsl(43, 78%, 98%);
 }
 
 /* Set shorter line heights on headings and interactive elements */
@@ -73,6 +74,8 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 } 
+
+
 `
 
 export default GlobalStyles;

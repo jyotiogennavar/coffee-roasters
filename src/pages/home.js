@@ -27,11 +27,13 @@ const Home = () => {
       <Header/>
       <div>
         Home page  
+       
       </div>
 
     </MainLayout>
 
   )
 }
+
 
 export default Home;
