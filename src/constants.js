@@ -9,6 +9,7 @@ export const COLORS = {
   paleOrange: 'hsl(25, 94%, 86%)',
   lightCream: 'hsl(43, 78%, 98%)',
   grey: 'hsl(215, 5%, 54%)',
+  white: ''
 };
 
 export const WEIGHTS = {
@@ -26,3 +27,13 @@ export const FONT_SIZES = {
   600: '4rem',
   button: '1.125rem', 
 };
+
+const BREAKPOINTS = {
+  tablet : 48,
+  mobile : 26,
+}
+
+export const QUERIES = {
+  'mobileOnly': `(max-width: ${BREAKPOINTS.mobile}rem)`,
+  'tabletAndUp': `(max-width: ${BREAKPOINTS.tablet + 0.01}rem)`, // Adding a small value to ensure tablets aren't included in mobileOnly
+}
