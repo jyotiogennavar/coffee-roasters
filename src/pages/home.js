@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { motion} from "framer-motion";
+// import { motion} from "framer-motion";
 
 import {
   COLORS,
@@ -104,9 +104,9 @@ const Home = () => {
 };
 
 const HeroSec = styled.div`
-  /* border-radius: 3vw; */
+    border-radius: 3vw;
   overflow: hidden;
-  margin-inline: 2vw;
+  margin-inline: 3vw;
   position: relative;
 
   @media ${QUERIES.mobileOnly} {
