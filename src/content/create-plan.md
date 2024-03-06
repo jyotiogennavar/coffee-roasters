@@ -1,7 +1,3 @@
- Home
-  About us
-  Create your plan
-
   Create a plan
   Build a subscription plan that best fits your needs. We offer an assortment of the best 
   artisan coffees from around the globe delivered fresh to your door.
@@ -21,6 +17,8 @@
   Receive and enjoy!
   We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning
   world-class coffees curated to provide a distinct tasting experience.
+
+  
 
   01 Preferences
   02 Bean type

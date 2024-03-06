@@ -9,7 +9,8 @@ export const COLORS = {
   paleOrange: 'hsl(25, 94%, 86%)',
   lightCream: 'hsl(43, 78%, 98%)',
   grey: 'hsl(215, 5%, 54%)',
-  white: ''
+  lightGray: 'hsl(45, 22%, 92%)',
+  white: 'hsl(0, 0%, 100%)'
 };
 
 export const WEIGHTS = {

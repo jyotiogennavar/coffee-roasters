@@ -29,7 +29,6 @@ const Home = () => {
   const features = getFeaturesData();
   const subscriptionSteps = getSubscriptionSteps();
 
-
   return (
     <MainLayout>
       <HeroSec>
@@ -104,7 +103,7 @@ const Home = () => {
 };
 
 const HeroSec = styled.div`
-    border-radius: 3vw;
+  border-radius: 3vw;
   overflow: hidden;
   margin-inline: 3vw;
   position: relative;
@@ -308,8 +307,6 @@ const FeatureCard = styled.div`
     align-items: center;
     text-align: left;
     gap: 2rem;
-   
-   
   }
 
   @media ${QUERIES.mobileOnly} {
